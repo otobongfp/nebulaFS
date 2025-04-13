@@ -1,0 +1,12 @@
+# Ignore target directory
+/target/
+
+# Optional: ignore IDE-specific files
+**/*.swp
+.idea/
+.vscode/
+*.log
+.DS_Store
+
+# Ignore Cargo.lock only for libraries (not binaries)
+Cargo.lock
